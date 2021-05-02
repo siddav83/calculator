@@ -15,11 +15,13 @@ const multiple = document.getElementById('multiple')
 const enter = document.getElementById('enter')
 const display = document.getElementById('display')
 const number = document.getElementById('number')
+const lcd = document.getElementById('lcd')
 
-number.addEventListener('click',(e)=> {
+
+digits.addEventListener('click',(e)=> {
   // const re = preventDefault()
 const numberEntered = parseInt(e.target.innerHTML)
-display.innerHTML = numberEntered
+lcd.innerHTML = numberEntered
 })
 
 
